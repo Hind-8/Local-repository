@@ -1,4 +1,3 @@
-# Local-repository
 import time
 import pandas as pd
 import numpy as np
@@ -7,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
+MONTH_DATA = ['all', ', 'february', 'march', 'april', 'may', 'june']
 
 DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
 
@@ -173,7 +172,7 @@ def user_stats(df, city):
     """
 
     print('\nCalculating User Stats...\n')
-    start_time = time.time()
+   
 
     # TO DO: Display counts of user types
     user_types = df['User Type'].value_counts()
